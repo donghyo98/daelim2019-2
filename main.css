@@ -1,0 +1,33 @@
+/* v0.4.0 */
+ul {
+  height: 60px;
+  background: #494646b2;
+  list-style: none;
+  padding-top: 15px;
+}
+ul li {
+  float: left;
+  margin-right: 10px;
+}
+ul li a {
+  margin-right: 20px;
+  font-size: 30px;
+  color: rgb(209, 211, 211);
+  font-weight: bold;
+  text-decoration: none;
+}
+section div{
+  display: inline;
+  background: #ffffff;
+  border: 2px solid black;
+  padding: 25px 25px;
+}
+h1{
+  text-align: center;
+    color: #7d1ccc;
+}
+.mg{
+  background: #772a2a;
+  padding: 30px;
+  text-align: center;
+}
