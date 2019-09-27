@@ -5,17 +5,17 @@
  */
 
  /* main menu */
- .nav-mg {
+ .hd-nav-bg {
   height: 40px;
   background: #1a1717b2;
   list-style: none;
   padding-top: 15px;
 }
-.nav-ss {
+.hd-nav-li {
   float: left;
   margin-right: 10px;
 }
-.nav-text {
+.hd-nav-text {
   margin-right: 20px;
   font-size: 20px;
   color: rgb(255, 255, 255);
@@ -30,11 +30,7 @@
   border: 2px solid black;
   padding: 25px 25px;
 }
-.name{
-  text-align: center;
-    color: #ffffff;
-}
-.mg{
+.article-1nd-bg{
   background: #636788;
   padding: 30px;
   text-align: center;
@@ -79,6 +75,55 @@
   -o-border-radius: 5%;
 }
 
-.ad-vd {
+.article-3nd-bg {
   text-align: center;
+  background-color: #afb3d4;
+}
+
+.article-4nd-bg {
+  text-align: center;
+  background-color: #7ab7cf;
+  margin-top: 20px;
+}
+
+.table-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 300px;
+  
+}
+
+.article-box-left {
+  text-align: right;
+  float: left;
+  width: 50%;
+  height: 500px;
+  background-color: #b7d31d;
+
+}
+
+.article-box-right {
+  float: left;
+  width: 50%;
+  height: 500px;
+  background-image: url("./img/background.jpg");
+}
+
+.margin-left {
+  margin-top: 100px;
+  margin-right: 50px;
+  font-size: 50px;
+}
+
+.margin-right {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 50px;
+}
+.p-margin-left {
+  margin-right: 50px;
+}
+.p-margin-right {
+  margin-left: 50px;
 }
