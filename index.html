@@ -1,6 +1,8 @@
 <!--  v0.6.0 -->
 <!DOCTYPE html>
 <html lang="ko">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cute+Font|Nanum+Brush+Script|Nanum+Myeongjo&display=swap" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -11,23 +13,20 @@
     <header>헤더 영역</header>
     <nav>
       <ul class="hd-nav-bg">
-        <li class="hd-nav-li"><a class="hd-nav-text" href="#">메뉴1</a></li>
-        <li class="hd-nav-li"><a class="hd-nav-text" href="#">메뉴2</a></li>
+        <li class="hd-nav-li"><a class="hd-nav-header" href="#">김동효</a></li>
+        <li class="hd-nav-li"><a class="hd-nav-text" href="#0927">메뉴1</a></li>
+        <li class="hd-nav-li"><a class="hd-nav-text" href="#1002">메뉴2</a></li>
         <li class="hd-nav-li"><a class="hd-nav-text" href="#">메뉴3</a></li>
         <li class="hd-nav-li"><a class="hd-nav-text" href="#">메뉴4</a></li>
         <li class="hd-nav-li"><a class="hd-nav-text" href="#">메뉴5</a></li>
       </ul>
     </nav>
     <article class="article-1nd-bg">
-      <h1>김동효</h1>
-      <h3>9월 20일 : display 실습</h3>
+      <h2>9월 20일 : display 실습</h2>
         <div class="box">블럭1</div>
         <div class="box">블럭2</div>
         <div class="box">블럭3</div>
     </article>
-    <section>1st section</section>
-    <section>2nd section</section>
-    <section>3rd section</section>
     <!-- 이미지 연습 -->
     <article class="article-2nd-bg">
       <h2>image 삽입</h2>
@@ -36,7 +35,7 @@
       <img class="img-cropper-5" src="./img/tree.jpg" alt="이미지 연습">
     </article>
     <!-- audio, video, youtube 연습 -->
-    <article class="article-3nd-bg">
+    <article class="article-3nd-bg"><a name="0927"></a>
       <h2>9월 27일 : adio, video 테그 사용하기</h2>
       <section>
         <h3>audio tag</h3>
@@ -85,44 +84,59 @@
     </article>
 
     <!-- article 정렬 연습 -->
-    <article class="article-box-left">
-      <h3 class="margin-left">왼쪽</h3>
-      <p class="p-margin-left">
-          This letter was first written in Britain and sent to the recipient on a yearly basis.<br>
-          This letter which gave you good luck and is now sent to you must leave you within 4 days.<br>
-          Including this letter, you should send 7 copies to the person in need of luck.<br>
-          You may copy it. You may say superstition, but it's true.<br>
-          In Britain, a man named HG .CH received this letter in 1930. He told his secretary to copy and send it.<br>
-          A few days later, I won the lottery and received two billion won. Some received this letter<br>
-          I forgot to leave my hands within 96 hours. He resigned soon.<br>
-          I sent seven letters after learning this fact, but I got a good job again.<br>
-          Kennedy this letter is president of the United States, just throw it out. Finally, nine days later,he was assassinated.<br>
-          Please remember. If you send this letter, you will have seven years of luck, or three years of misfortune.<br>
-          And you should never throw away or scribble this letter. Seven.<br>
-          Fortune will smile upon the person who received this letter. It may be hard, but think of it as a good idea. Wishing you seven years of good luck.<br>
-      </p>
+    <article>
+      <div class="article-box-left">
+        <h3 class="margin-left">왼쪽</h3>
+        <p class="p-margin-left">
+            This letter was first written in Britain and sent to the recipient on a yearly basis.<br>
+            This letter which gave you good luck and is now sent to you must leave you within 4 days.<br>
+            Including this letter, you should send 7 copies to the person in need of luck.<br>
+            You may copy it. You may say superstition, but it's true.<br>
+            In Britain, a man named HG .CH received this letter in 1930. He told his secretary to copy and send it.<br>
+            A few days later, I won the lottery and received two billion won. Some received this letter<br>
+            I forgot to leave my hands within 96 hours. He resigned soon.<br>
+            I sent seven letters after learning this fact, but I got a good job again.<br>
+            Kennedy this letter is president of the United States, just throw it out. Finally, nine days later,he was assassinated.<br>
+            Please remember. If you send this letter, you will have seven years of luck, or three years of misfortune.<br>
+            And you should never throw away or scribble this letter. Seven.<br>
+            Fortune will smile upon the person who received this letter. It may be hard, but think of it as a good idea. Wishing you seven years of good luck.<br>
+        </p>
+      </div>
+      <div class="article-box-right">
+        <h3 class="margin-right">오른쪽</h3>
+        <p class="p-margin-right">
+          이 편지는 영국에서 최초로 시작되어 일년에 한바퀴 돌면서 받는 사람에게 행운을 주었고<br>
+          지금은 당신에게로 옮겨진 이 편지는 4일 안에 당신 곁을 떠나야 합니다.<br>
+          이 편지를 포함해서 7통을 행운이 필요한 사람에게 보내 주셔야 합니다. 복사를 해도 좋습니다.<br>
+          혹 미신이라 하실지 모르지만 사실입니다.<br>
+          영국에서 HGXWCH이라는 사람은 1930년에 이 편지를 받았습니다.<br>
+          그는 비서에게 복사해서 보내라고 했습니다. 며칠 뒤에 복권이 당첨되어 20억을 받았습니다.<br>
+          어떤 이는 이 편지를 받았으나 96시간 이내 자신의 손에서 떠나야 한다는 사실을 잊었습니다.<br>
+          그는 곧 사직되었습니다. 나중에야 이 사실을 알고 7통의 편지를 보냈는데<br>
+          다시 좋은 직장을 얻었습니다.미국의 케네디 대통령은 이 편지를 받았지만 그냥 버렸습니다.<br>
+          결국 9일 후 그는 암살 당했습니다. 기억해 주세요.<br>
+          이 편지를 보내면 7년의 행운이 있을 것이고 그렇지 않으면 3년의 불행이 있을 것입니다.<br>
+          그리고 이 편지를 버리거나 낙서를 해서는 절대로 안됩니다. 7통입니다.<br>
+          이 편지를 받은 사람은 행운이 깃들 것입니다.<br>
+          힘들겠지만 좋은게 좋다고 생각하세요. 7년의 행운을 빌면서....s</p>
+      </div>
     </article>
-    <article class="article-box-right">
-      <h3 class="margin-right">오른쪽</h3>
-      <p class="p-margin-right">
-        이 편지는 영국에서 최초로 시작되어 일년에 한바퀴 돌면서 받는 사람에게 행운을 주었고<br>
-        지금은 당신에게로 옮겨진 이 편지는 4일 안에 당신 곁을 떠나야 합니다.<br>
-        이 편지를 포함해서 7통을 행운이 필요한 사람에게 보내 주셔야 합니다. 복사를 해도 좋습니다.<br>
-        혹 미신이라 하실지 모르지만 사실입니다.<br>
-        영국에서 HGXWCH이라는 사람은 1930년에 이 편지를 받았습니다.<br>
-        그는 비서에게 복사해서 보내라고 했습니다. 며칠 뒤에 복권이 당첨되어 20억을 받았습니다.<br>
-        어떤 이는 이 편지를 받았으나 96시간 이내 자신의 손에서 떠나야 한다는 사실을 잊었습니다.<br>
-        그는 곧 사직되었습니다. 나중에야 이 사실을 알고 7통의 편지를 보냈는데<br>
-        다시 좋은 직장을 얻었습니다.미국의 케네디 대통령은 이 편지를 받았지만 그냥 버렸습니다.<br>
-        결국 9일 후 그는 암살 당했습니다. 기억해 주세요.<br>
-        이 편지를 보내면 7년의 행운이 있을 것이고 그렇지 않으면 3년의 불행이 있을 것입니다.<br>
-        그리고 이 편지를 버리거나 낙서를 해서는 절대로 안됩니다. 7통입니다.<br>
-        이 편지를 받은 사람은 행운이 깃들 것입니다.<br>
-        힘들겠지만 좋은게 좋다고 생각하세요. 7년의 행운을 빌면서....
-      s</p>
-    </article>
+    <a name="1002">
+    <article class="grid-container">
+      <div class="grid-item item1">10월2일 grid 연습</div>
+      <div class="grid-item item2">2</div>
+      <div class="grid-item item3">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+      <div class="grid-item">9</div>
+      <div class="grid-item item10">10</div>
+    </article></a>
 
     <aside>
+      <p>글꼴 변경 완료.</p>
     </aside>
     <footer>copyright&copy;&nbsp;kindonghyo</footer>
 </body>

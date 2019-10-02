@@ -4,12 +4,21 @@
  * Author: Donghyo.Kim
  */
 
+h2 {
+  margin: 0px;
+} 
+
+h3 {
+  margin: 0px;
+} 
+
  /* main menu */
  .hd-nav-bg {
-  height: 40px;
+  height: 60px;
   background: #1a1717b2;
   list-style: none;
   padding-top: 15px;
+  margin: 0px;
 }
 .hd-nav-li {
   float: left;
@@ -17,10 +26,23 @@
 }
 .hd-nav-text {
   margin-right: 20px;
-  font-size: 20px;
+  font-size: 50px;
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-decoration: none;
+  font-family: 'Nanum Brush Script', cursive;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Cute Font', cursive;
+}
+.hd-nav-header{
+  margin-right: 20px;
+  font-size: 50px;
+  color: #2d00f6;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Nanum Brush Script', cursive;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Cute Font', cursive;
 }
 
 /* article */
@@ -32,7 +54,7 @@
 }
 .article-1nd-bg{
   background: #636788;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -78,22 +100,20 @@
 .article-3nd-bg {
   text-align: center;
   background-color: #afb3d4;
+  margin-bottom: 0px;
 }
 
 .article-4nd-bg {
   text-align: center;
   background-color: #7ab7cf;
-  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 0px;
 }
 
 .table-center {
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  height: 300px;
-  
 }
-
 .article-box-left {
   text-align: right;
   float: left;
@@ -126,4 +146,42 @@
 }
 .p-margin-right {
   margin-left: 50px;
+}
+/* grid */
+.grid-container {
+  text-align: center;
+  display: grid;
+  background-color: #ff0000;
+  clear: both;
+  grid-gap:10px;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #ffffff;
+  font-size:40px;
+  padding: 20px;
+}
+.item1{
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+.item2{
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+.item3{
+  grid-column: 3;
+  grid-row: 2 / span 2;
+}
+
+.item10 {
+  grid-column: 2 / span 2;
+  grid-row: 5;
+}
+
+aside {
+  text-align: center;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 40px;
+  border: 10px solid #000000;
 }
