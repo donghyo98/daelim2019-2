@@ -7,3 +7,9 @@
 > 4. css 초기화 ( v0.1.0 )
 > 5. 메뉴 생성 ( v0.2.0 )
 > 6. 1st article : margin, padding, border test ( v.0.3.0 )
+
+## 2019.10.02
+#### index.html / main.css 수정
+> 1. grid 추가
+> 2. aside 글꼴 변경
+> 3. a 태그 추가
