@@ -1,4 +1,4 @@
-<!--  v0.7.0 -->
+<!--  v0.8.0 -->
 <!DOCTYPE html>
 <html lang="ko">
 <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
@@ -7,87 +7,118 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="menu.css">
     <title>김동효</title>
 </head>
 <body>
-    <header>헤더 영역</header>
-    <nav>
-      <ul class="hd-nav-bg">
-        <li class="hd-nav-li"><a class="hd-nav-header" href="#">김동효</a></li>
-        <li class="hd-nav-li"><a class="hd-nav-text" href="#0927">메뉴1</a></li>
-        <li class="hd-nav-li"><a class="hd-nav-text" href="#1002">메뉴2</a></li>
-        <li class="hd-nav-li"><a class="hd-nav-text" href="#">메뉴3</a></li>
-        <li class="hd-nav-li"><a class="hd-nav-text" href="#">메뉴4</a></li>
-        <li class="hd-nav-li"><a class="hd-nav-text" href="#">메뉴5</a></li>
-      </ul>
-    </nav>
-    <article class="article-1nd-bg">
-      <h2>9월 20일 : display 실습</h2>
-        <div class="box">블럭1</div>
-        <div class="box">블럭2</div>
-        <div class="box">블럭3</div>
-    </article>
-    <!-- 이미지 연습 -->
-    <article class="article-2nd-bg">
-      <h2>image 삽입</h2>
-      <img class="img-cropper-50" src="./img/tree.jpg" alt="이미지 연습">
-      <img class="img-cropper-25" src="./img/tree.jpg" alt="이미지 연습">
-      <img class="img-cropper-5" src="./img/tree.jpg" alt="이미지 연습">
-    </article>
-    <!-- audio, video, youtube 연습 -->
-    <article class="article-3nd-bg"><a name="0927"></a>
-      <h2>9월 27일 : adio, video 테그 사용하기</h2>
-      <section>
-        <h3>audio tag</h3>
-        <audio controls>
-        <source src="./audio/file_example_MP3_700KB.mp3"/>
-        </audio>
-      </section>
-      <section>
-        <h3>video tag</h3>
-        <video controls>
-          <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm"/>
-          <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogv"/>
-          <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4"/>
-          <source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp"/>
-        </video>
-      </section>
-      <iframe width="600" height="480" src="https://www.youtube.com/embed/3BB4knAVb1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </article>
-    <!-- 테이블 연습 -->
-    <article class="article-4nd-bg">
-      <h2>9월 27일 : 테이블 만들기</h2>
-      <table border="1" class="table-center">
-        <tr>
-          <th colspan="4">테이블 연습</th>
-        </tr>
-        <tr>
-          <th rowspan="5">줄 합치기</th>
-          <th colspan="3">칸 합치기</th> 
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>5</td>
-          <td>6</td>
-        </tr>
-        <tr>
-          <td>7</td>
-          <td>8</td>
-          <td>9</td>
-        </tr>
-      </table>
-    </article>
+  <nav class="navbar" role="navigation">
+    <ul class="main-menu">
+      <li><a href="#">김동효</a></li>
+      <li><a href="#">MENU1</a>
+        <ul class="sub-menu">
+          <li><a href="#image" aria-label="subemnu">이미지</a></li>
+          <li><a href="#video" aria-label="subemnu">비디오</a></li>
+          <li><a href="#table" aria-label="subemnu">테이블</a></li>
+          <li><a href="#grid" aria-label="subemnu">그리드</a></li>
+        </ul>
+      </li>
+      <li><a href="#">MENU2</a></li>
+      <li><a href="#">MENU3</a></li>
+      <li><a href="#">MENU4</a></li>
+      <li><a href="#">MENU5</a></li>
+    </ul>
+  </nav>
+      
+  <!-- 10월 11일: Fullscreen background header -->
+  <header class="full-bg">
+    <div class="container">
+      <div class="header-title">
+      Kim Dong Hyo 홈페이지
+        <p class="header-sub-title">
+          김동효의 홈페이지 입니다.<br>
+          2019년 2학기 실습 내용을 정리했습니다.
+        </p>
+      </div>
+      <!-- ghost button -->
+      <div>
+        <a href="#" class="ghost-button">Ghost Button Sample</a>
+      </div>
+    </div>
+  </header>
+    
+  <article class="article-1nd-bg">
+    <h2>9월 20일 : display 실습</h2>
+      <div class="box">블럭1</div>
+      <div class="box">블럭2</div>
+      <div class="box">블럭3</div>
+  </article>
 
-    <!-- article 정렬 연습 -->
-    <article>
-      <div class="article-box-left">
-        <h3 class="margin-left">왼쪽</h3>
-        <p class="p-margin-left">
+  <!-- 이미지 연습 -->
+  <article class="article-2nd-bg">
+    <a name="image"></a>
+    <h2>image 삽입</h2>
+    <img class="img-cropper-50" src="./img/tree.jpg" alt="이미지 연습">
+    <img class="img-cropper-25" src="./img/tree.jpg" alt="이미지 연습">
+    <img class="img-cropper-5" src="./img/tree.jpg" alt="이미지 연습">
+  </article>
+
+  <!-- audio, video, youtube 연습 -->
+  <a name="video"></a>
+  <article class="article-3nd-bg">
+    <h2>9월 27일 : adio, video 테그 사용하기</h2>
+    <section>
+      <h3>audio tag</h3>
+      <audio controls>
+        <source src="./audio/file_example_MP3_700KB.mp3"/>
+      </audio>
+    </section>
+    <section>
+      <h3>video tag</h3>
+      <video controls>
+        <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm"/>
+        <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogv"/>
+        <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4"/>
+        <source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp"/>
+      </video>
+    </section>
+    <iframe width="600" height="480" src="https://www.youtube.com/embed/3BB4knAVb1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </article>
+
+    <!-- 테이블 연습 -->
+  <a name="table"></a>
+  <article class="article-4nd-bg">
+    <h2>9월 27일 : 테이블 만들기</h2>
+    <table border="1" class="table-center">
+      <tr>
+        <th colspan="4">테이블 연습</th>
+      </tr>
+      <tr>
+        <th rowspan="5">줄 합치기</th>
+        <th colspan="3">칸 합치기</th> 
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+    </table>
+  </article>
+
+  <!-- article 정렬 연습 -->
+  <article>
+    <div class="article-box-left">
+      <h3 class="margin-left">왼쪽</h3>
+      <p class="p-margin-left">
             This letter was first written in Britain and sent to the recipient on a yearly basis.<br>
             This letter which gave you good luck and is now sent to you must leave you within 4 days.<br>
             Including this letter, you should send 7 copies to the person in need of luck.<br>
@@ -100,11 +131,11 @@
             Please remember. If you send this letter, you will have seven years of luck, or three years of misfortune.<br>
             And you should never throw away or scribble this letter. Seven.<br>
             Fortune will smile upon the person who received this letter. It may be hard, but think of it as a good idea. Wishing you seven years of good luck.<br>
-        </p>
-      </div>
-      <div class="article-box-right">
-        <h3 class="margin-right">오른쪽</h3>
-        <p class="p-margin-right">
+      </p>
+    </div>
+    <div class="article-box-right">
+      <h3 class="margin-right">오른쪽</h3>
+      <p class="p-margin-right">
           이 편지는 영국에서 최초로 시작되어 일년에 한바퀴 돌면서 받는 사람에게 행운을 주었고<br>
           지금은 당신에게로 옮겨진 이 편지는 4일 안에 당신 곁을 떠나야 합니다.<br>
           이 편지를 포함해서 7통을 행운이 필요한 사람에게 보내 주셔야 합니다. 복사를 해도 좋습니다.<br>
@@ -119,25 +150,25 @@
           그리고 이 편지를 버리거나 낙서를 해서는 절대로 안됩니다. 7통입니다.<br>
           이 편지를 받은 사람은 행운이 깃들 것입니다.<br>
           힘들겠지만 좋은게 좋다고 생각하세요. 7년의 행운을 빌면서....s</p>
-      </div>
-    </article>
-    <a name="1002">
-    <article class="grid-container">
-      <div class="grid-item item1">10월2일 grid 연습</div>
-      <div class="grid-item item2">2</div>
-      <div class="grid-item item3">3</div>
-      <div class="grid-item">4</div>
-      <div class="grid-item">5</div>
-      <div class="grid-item">6</div>
-      <div class="grid-item">7</div>
-      <div class="grid-item">8</div>
-      <div class="grid-item">9</div>
-      <div class="grid-item item10">10</div>
-    </article></a>
+    </div>
+  </article>
+  <a name="grid"></a>
+  <article class="grid-container">
+    <div class="grid-item item1">10월2일 grid 연습</div>
+    <div class="grid-item item2">2</div>
+    <div class="grid-item item3">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item item10">10</div>
+  </article></a>
 
-    <aside>
-      <p>글꼴 변경 완료.</p>
-    </aside>
-    <footer>copyright&copy;&nbsp;kindonghyo</footer>
+  <aside>
+    <p>글꼴 변경 완료.</p>
+  </aside>
+  <footer>copyright&copy;&nbsp;kindonghyo</footer>
 </body>
 </html>

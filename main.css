@@ -1,6 +1,6 @@
 /*
- * main.css v0.7.0
- * Update: 2019.10.02
+ * main.css v0.8.0
+ * Update: 2019.10.11
  * Author: Donghyo.Kim
  */
 
@@ -11,38 +11,39 @@ h2 {
 h3 {
   margin: 0px;
 } 
+/* header Fullscreen background */
+.full-bg {
+  background: url(./img/tree.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -moz-background-size: cover;
+  -moz-background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: table; /* 타이틀 위치를 위한 display */
+}
 
- /* main menu */
- .hd-nav-bg {
-  height: 60px;
-  background: #1a1717b2;
-  list-style: none;
-  padding-top: 15px;
-  margin: 0px;
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
-.hd-nav-li {
-  float: left;
-  margin-right: 10px;
-}
-.hd-nav-text {
-  margin-right: 20px;
-  font-size: 50px;
-  color: rgb(255, 255, 255);
+
+.header-title {
+  display: inline-block;
+  width: 50%;
+  height: 140px;
+  font-size: 35px;
   font-weight: bold;
-  text-decoration: none;
-  font-family: 'Nanum Brush Script', cursive;
-  font-family: 'Nanum Myeongjo', serif;
-  font-family: 'Cute Font', cursive;
+  padding-top: 25px;
+  background: rgba(39, 2, 245, 0.20);
+  color: #fff;
+  border: solid 6px #000000;
 }
-.hd-nav-header{
-  margin-right: 20px;
-  font-size: 50px;
-  color: #2d00f6;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: 'Nanum Brush Script', cursive;
-  font-family: 'Nanum Myeongjo', serif;
-  font-family: 'Cute Font', cursive;
+
+.header-sub-title { 
+  font-size: 20px;
+  color: rgb(255, 244, 180);
 }
 
 /* article */
@@ -184,4 +185,22 @@ aside {
   font-family: 'Nanum Brush Script', cursive;
   font-size: 40px;
   border: 10px solid #000000;
+}
+/* ghost button */
+.ghost-button {
+  margin-top: 50px;
+  font-size: 40px;
+  display: inline-block;
+  padding: 25px 40px;
+  border: 5px solid #21dd10;
+  color: #14cc70;
+  text-align: center; 
+  text-decoration:none;
+  border-radius: 30px;
+}
+.ghost-button:hover {
+  font-family: 'Nanum Brush Script', cursive;
+  background-color:rgba(17, 230, 141, 0.2);
+  color:rgb(240, 19, 19);
+  border-radius: 30px;
 }
