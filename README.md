@@ -13,3 +13,9 @@
 > 1. grid 추가
 > 2. aside 글꼴 변경
 > 3. a 태그 추가
+
+## 2019.10.11
+#### index.html / main.css 수정 / menu.css 추가
+> 1. header 추가
+> 2. nav 변경
+> 3. ghost button 추가
