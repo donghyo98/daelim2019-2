@@ -36,8 +36,9 @@ h3 {
   font-size: 35px;
   font-weight: bold;
   padding-top: 25px;
-  background: rgba(11, 0, 73, 8);
+  background: #555ca0;
   color: #fff;
+  border: solid 6px #000000;
 }
 
 .header-sub-title { 
@@ -47,9 +48,16 @@ h3 {
 
 
  /* main menu */
+ .navbar {
+  z-index: 1030;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #201e1e;
+ }
  .hd-nav-bg {
   height: 60px;
-  background: #1a1717b2;
   list-style: none;
   padding-top: 15px;
   margin: 0px;
