@@ -1,0 +1,22 @@
+<!-- v0.1.0 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clock</title>
+  <script>
+    window.onload = function() {
+      var clock = document.getElementById('clock');
+      setInterval(function() {
+        var now = new Date();
+        clock.innerHTML = now.toString();
+      }, 1000);
+    };
+    </script>
+</head>
+<body>
+  <h1 id="clock"></h1>
+</body>
+</html>
