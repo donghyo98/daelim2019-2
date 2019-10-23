@@ -1,5 +1,12 @@
 # 김동효 : daelim2019-2 project
 
+## 2019.10.23
+#### domBasic.html, domBasic2.html, dom_clock.html 추가
+> 1. window.onload = function()사용
+> 2. innerHTML 사용
+> 3. for문 응용
+> 4. new Date() 응용
+
 ## 2019.10.11
 #### index.html / main.css 수정 / menu.css 추가
 > 1. header 추가
