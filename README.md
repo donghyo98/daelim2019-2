@@ -1,5 +1,13 @@
 # 김동효 : daelim2019-2 project
 
+## 2019.10.25
+#### jqueryTest.html ~ jqueryTest6.html 추가 / index.html 수정
+> 1. jquery 이벤트 응용연습
+> 2. ready, attr, click, fadeToggle 사용
+> 3. setInterval를 사용하여 이미지 반복변경 연습
+> 4. index.html menu3번에 연결
+
+
 ## 2019.10.23
 #### domBasic.html, domBasic2.html, dom_clock.html 추가
 > 1. window.onload = function()사용
