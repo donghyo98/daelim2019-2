@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jqueryTest5</title>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script>
+    window.onload = function () {
+      //변수를 선언합니다.
+      var count = 0;
+      var image = document.getElementById('image');
+      var frames = [
+        './777/0.png', './777/1.png', './777/2.png', './777/3.png',
+        './777/4.png', './777/5.png', './777/6.png', './777/7.png',
+        './777/8.png', './777/9.png', './777/10.png', './777/11.png',
+        './777/12.png', './777/13.png', './777/14.png',
+      ];
+      //타이머 반복을 시작합니다.
+      setInterval(function() {
+        image.src = frames[count % frames.length];
+        count = count + 1;
+      }, 1000/40);
+    };
+  </script>
+</head>
+<body>
+  <img id="image"/>
+</body>
+</html>
