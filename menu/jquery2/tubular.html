@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tubular 플러그인 연습</title>
+  <style>
+    * {
+      margin:0;
+      padding: 0;
+    }
+    a, a:visited {
+      text-decoration:none;
+      margin:5px 15px;
+      color:white;
+    }
+    h1 {
+      margin-top:25%;
+      font-size:50px;
+      color:#eee;
+      text-shadow:2px 2px 5px black;
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <a href="#" class="tubular-play">재생</a>
+    <a href="#" class="tubular-pause">일시정지</a>
+    <a href="#" class="tubular-volume-up">소리 키우기</a>
+    <a href="#" class="tubular-volume-down">소리 줄이기</a>
+    <a href="#" class="tubular-mute">소리 끄기</a>
+    <h1>FULLSCREEN</h1>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="../../lib/jquery.tubular.1.0.js"></script>
+  <script>
+    $("document").ready(function() {
+      var options = { videoId:'1NnTeB_bxWM', start: 0, repeat: true };
+      $('body').tubular(options);
+    });
+  </script>
+</body>
+</html>

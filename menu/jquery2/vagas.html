@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>vagas</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="../../lib/vegas/vegas.min.js"></script>
+  <link rel="stylesheet" href="../../lib/vegas/vegas.min.css">
+  <script>
+    $(function() {
+      $('body').vegas({
+    slides: [
+        {   src: '../../media/img/tree.jpg' },
+        {   video: {
+                src: [
+                    '../../media/video/yanado.mp4',
+                    '../../media/video/yanado.webm',
+                    '../../media/video/yanado.ogv'
+                ],
+                loop: false,
+                mute: true
+            }
+        }
+    ]
+});
+});
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
