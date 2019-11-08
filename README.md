@@ -1,5 +1,13 @@
 # 김동효 : daelim2019-2 project
 
+## 2019.11.08
+#### infinityScroll, backstretch, vagas, tubular.html 추가 / index.html 수정
+> 1. 무한스크롤 연습
+> 2. backstretch 연습
+> 3. vagas 연습
+> 4. 유튜브 영상 백그라운드 실행 연습
+> 5. 디렉토리정리 및 경로수정
+
 ## 2019.10.25
 #### jqueryTest.html ~ jqueryTest6.html 추가 / index.html 수정
 > 1. jquery 이벤트 응용연습
