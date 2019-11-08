@@ -1,6 +1,6 @@
 /*
- * main.css v0.8.0
- * Update: 2019.10.11
+ * main.css v0.11.0
+ * Update: 2019.11.08
  * Author: Donghyo.Kim
  */
 
@@ -13,7 +13,7 @@ h3 {
 } 
 /* header Fullscreen background */
 .full-bg {
-  background: url(./img/tree.jpg) no-repeat center center fixed;
+  background: url(../media/img/tree.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover;
   -moz-background-size: cover;

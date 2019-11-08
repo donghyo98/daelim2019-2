@@ -1,13 +1,13 @@
-<!--  v0.10.0 -->
+<!--  v0.11.0 -->
 <!DOCTYPE html>
 <html lang="ko">
 <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cute+Font|Nanum+Brush+Script|Nanum+Myeongjo&display=swap" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="menu.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
     <title>김동효</title>
 </head>
 <body>
@@ -24,22 +24,28 @@
       </li>
       <li><a href="#">MENU2</a>
         <ul class="sub-menu">
-          <li><a href="./domBasic.html" target="_blank" aria-label="subemnu">첫번째</a></li>
-          <li><a href="./domBasic2.html" target="_blank" aria-label="subemnu">두번째</a></li>
-          <li><a href="./dom_clock.html" target="_blank" aria-label="subemnu">시간</a></li>
+          <li><a href="./menu/dom/domBasic.html" target="_blank" aria-label="subemnu">첫번째</a></li>
+          <li><a href="./menu/dom/domBasic2.html" target="_blank" aria-label="subemnu">두번째</a></li>
+          <li><a href="./menu/dom/dom_clock.html" target="_blank" aria-label="subemnu">시간</a></li>
         </ul>
       </li>
       <li><a href="#">MENU3</a>
         <ul class="sub-menu">
-            <li><a href="./jqueryTest.html" target="_blank" aria-label="subemnu">jqueryTest</a></li>
-            <li><a href="./jqueryTest2.html" target="_blank" aria-label="subemnu">jqueryTest2</a></li>
-            <li><a href="./jqueryTest3.html" target="_blank" aria-label="subemnu">jqueryTest3</a></li>
-            <li><a href="./jqueryTest4.html" target="_blank" aria-label="subemnu">jqueryTest4</a></li>
-            <li><a href="./jqueryTest5.html" target="_blank" aria-label="subemnu">jqueryTest5</a></li>
-            <li><a href="./jqueryTest6.html" target="_blank" aria-label="subemnu">jqueryTest6</a></li>
+            <li><a href="./menu/jquery1/jqueryTest.html" target="_blank" aria-label="subemnu">jqueryTest</a></li>
+            <li><a href="./menu/jquery1/jqueryTest2.html" target="_blank" aria-label="subemnu">jqueryTest2</a></li>
+            <li><a href="./menu/jquery1/jqueryTest3.html" target="_blank" aria-label="subemnu">jqueryTest3</a></li>
+            <li><a href="./menu/jquery1/jqueryTest4.html" target="_blank" aria-label="subemnu">jqueryTest4</a></li>
+            <li><a href="./menu/jquery1/jqueryTest5.html" target="_blank" aria-label="subemnu">jqueryTest5</a></li>
+            <li><a href="./menu/jquery1/jqueryTest6.html" target="_blank" aria-label="subemnu">jqueryTest6</a></li>
           </ul>
       </li>
-      <li><a href="#">MENU4</a></li>
+      <li><a href="#">MENU4</a>
+        <ul class="sub-menu">
+            <li><a href="./menu/jquery2/infinityScroll.html" target="_blank" aria-label="subemnu">infinityScroll</a></li>
+            <li><a href="./menu/jquery2/backstretch.html" target="_blank" aria-label="subemnu">backstretch</a></li>
+            <li><a href="./menu/jquery2/vagas.html" target="_blank" aria-label="subemnu">vagas</a></li>
+          </ul>
+      </li>
       <li><a href="#">MENU5</a></li>
     </ul>
   </nav>
@@ -72,9 +78,9 @@
   <article class="article-2nd-bg">
     <a name="image"></a>
     <h2>image 삽입</h2>
-    <img class="img-cropper-50" src="./img/tree.jpg" alt="이미지 연습">
-    <img class="img-cropper-25" src="./img/tree.jpg" alt="이미지 연습">
-    <img class="img-cropper-5" src="./img/tree.jpg" alt="이미지 연습">
+    <img class="img-cropper-50" src="./media/img/tree.jpg" alt="이미지 연습">
+    <img class="img-cropper-25" src="./media/img/tree.jpg" alt="이미지 연습">
+    <img class="img-cropper-5" src="./media/img/tree.jpg" alt="이미지 연습">
   </article>
 
   <!-- audio, video, youtube 연습 -->
@@ -84,7 +90,7 @@
     <section>
       <h3>audio tag</h3>
       <audio controls>
-        <source src="./audio/file_example_MP3_700KB.mp3"/>
+        <source src="./media/audio/file_example_MP3_700KB.mp3"/>
       </audio>
     </section>
     <section>
