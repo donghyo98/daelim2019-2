@@ -1,7 +1,7 @@
 # 김동효 : daelim2019-2 project
 
 ## 2019.11.08
-#### infinityScroll, backstretch, vagas, tubular.html 추가 / index.html 수정
+#### infinityScroll, backstretch, vagas.html 추가 / index.html 수정
 > 1. 무한스크롤 연습
 > 2. backstretch 연습
 > 3. vagas 연습
