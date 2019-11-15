@@ -1,5 +1,15 @@
 # 김동효 : daelim2019-2 project
 
+## 2019.11.15
+#### bs-index.html 추가
+> 1. 부트스트랩 활용하여 네비바 생성
+> 2. 부트스트랩 활용하여 색션 지정
+> 3. 부트스트랩 활용하여 버튼 생성
+> 4. 부트스트랩 활용하여 토글 버튼 모델 연습
+> 5. 부트스트랩 활용하여 카드, 컨트롤 연습
+> 6. 부트스트랩 활용하여 progressbar 연습
+> 7. index.html, bs-index.html 파비콘 변경
+
 ## 2019.11.08
 #### infinityScroll, backstretch, vagas.html 추가 / index.html 수정
 > 1. 무한스크롤 연습
